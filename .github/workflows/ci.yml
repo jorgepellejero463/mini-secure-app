@@ -2,8 +2,9 @@ name: CI Security
 
 permissions:
   contents: read
-  security-events: write
   actions: read
+  checks: write
+  security-events: write
 
 on:
   push:
