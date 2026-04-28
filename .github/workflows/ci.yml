@@ -5,6 +5,8 @@ permissions:
   actions: read
   checks: write
   security-events: write
+  issues: write
+  pull-requests: write
 
 on:
   push:
